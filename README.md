@@ -19,13 +19,13 @@ The rPi will be in a central hub enclosure save from the elements (This is meant
 
 # rPi Input:
 The capabilities of the rPi inputs can be read about here: [gpio-pin-electrical-specifications](http://www.mosaic-industries.com/embedded-systems/microcontroller-projects/raspberry-pi/gpio-pin-electrical-specifications)
-![GPIO Pins](https://github.com/Camp-Scope-Creep/Scimon/circuits/raspberry-pi-circuit-gpio-input-pins.png)
+![GPIO Pins](https://github.com/Camp-Scope-Creep/Scimon/tree/master/circuits/raspberry-pi-circuit-gpio-input-pins.png)
 
 Some example protection circuits can be found here: [Protecting Inputs](https://www.digikey.com/en/articles/techzone/2012/apr/protecting-inputs-in-digital-electronics)
 8 inputs on the rPi will be select as INPUTs to monitor the 8 station buttons. The WiringPi library will be utilized to register "Interrupt Service Routines" (ISR) so that we do not have to set up a tight polling loop to monitor the buttons. This frees the processor(s) to go and do fun things like play sounds and yell at players for screwing up. Each Input will have an external protection circuit to help remove/minimize ringing/ESD from the button. The rPi chipset offers a programable pullup/pulldown resistor, so we will not needs to add this to the circuit.
 
 We will be using this RC protection circuit:
-![RC-circuit](https://github.com/Camp-Scope-Creep/Scimon/circuits/input-protection-rc.jpeg)
+![RC-circuit](https://github.com/Camp-Scope-Creep/Scimon/tree/master/circuits/input-protection-rc.jpeg)
 
 The SPST Button in the station will utilize the VDD wire from the LEDs. This effectively makes our switch "Active High", so we will need to configure the input at the rPi with a pull-down resistor. When configuring an ISR for a pin in wiringPi, we can select from watching the rising-edge, falling-edge, or both. We are going to subscribe to both since our Music instrument mode needs both (To turn sound on and off)
 
