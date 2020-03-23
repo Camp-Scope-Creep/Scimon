@@ -12,7 +12,7 @@ Two different Game modes:
  - **8 Person simon like game**: The classic 1978 Simon game will come to life in an 8 player mode! (Or one person running frantically around the circle trying to get all the beeps and boops.
 
 
-#The Station Circuit:
+# The Station Circuit:
 Each station will be made up of a "Button" for the player/user to press, and a "Light" that will illuminate when the User/Player presses the button (Or any other logic). A small protecton circuit will be constructed to block ESD and ringing induced from the "long" cable and human factors. While there shouldn't be an opportunity for ESD during normal operation (Because the button is in a plastic housing electrically isolated from the rPi input), we will practice safe static. The small handful of components should also offer us a "hardware debounce" and nice clean signal (TBD: gunna have to put a scope on it).
 
 The rPi will be in a central hub enclosure save from the elements (This is meant to run outside on battery power). Each Station will have a CAT5 cable run to it to supply power/signal for the lighting and a path for the Button to switch too.
