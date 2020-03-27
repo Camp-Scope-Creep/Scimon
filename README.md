@@ -47,3 +47,22 @@ We were going to use "Sample Cache" in PulseAudio with C libs, but we moved away
 sudo apt install python3 python3-pip python3-dev wiringpi
 pip3 install simpleaudio
 pip3 install wiringpi
+
+# Games:
+
+## Scimon:
+Classic 1978 Simon game, but with 8 buttons
+
+## Instrument:
+Each button has a synth/instrument/drum of some kind mapped to it so people can make music
+
+## Story Time:
+This will be a really fun sequential game that will come with a reward of super shwag for the first person(s) to complete the entire game. The game will be made up of several stages. Each stage will be a collection of 8 sounds (One sound for each button). These 8 sounds will need to be played in order. Each time an incorrect order is done by the players, they have to start over. Once all 8 sounds are played in order, the game will proceed to the next stage. This will continue until all the stages are complete.
+
+The first person(s) to complete the entire "story", the central core will open up to reveal the super shwag!
+
+I propose that we use "Monty Pyton's quest for the holy grail" as the story to play. Each major scene in the movie will have 8 sounds selected which need to be played in order.
+
+## Game Show:
+We could do a competitive game show where two different teams have 4 buttons each to answer questions. Or we could just 
+//TODO: define more shit
