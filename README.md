@@ -61,7 +61,15 @@ This will be a really fun sequential game that will come with a reward of super 
 
 The first person(s) to complete the entire "story", the central core will open up to reveal the super shwag!
 
-I propose that we use "Monty Pyton's quest for the holy grail" as the story to play. Each major scene in the movie will have 8 sounds selected which need to be played in order.
+I propose that we use "Monty Pyton's quest for the holy grail" as the story to play. Each major scene in the movie will have 8 sounds selected which need to be played in order. The Super Shwag will be.....A GRAIL!!!
+
+The grail will be very large, capable of being drunken from, and will have a computer inside it that will do all kinds of things:
+ - Talk to you from time to time
+ - register when you are drinking from it
+ - sense when it is around other art installation we make and talk about them
+ - be upgraded with crystals from moebius
+ - be upgraded with other art installations camps
+ - TODO: Define other shit
 
 ## Game Show:
 We could do a competitive game show where two different teams have 4 buttons each to answer questions. Or we could just 
